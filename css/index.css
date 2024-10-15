@@ -1,0 +1,42 @@
+img {
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+#nav a{
+    margin: 60px;
+    padding: 5px;
+    font-size: 30px;
+    font-style: italic;
+}
+a:hover{
+    background-color:darkred;
+    color: white;
+}
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: auto;
+    padding: 30px;
+    border: 20px;
+    display: flex;
+}
+.container img{
+    height: 300px;
+    width: 100px;
+}
+.container img:hover{
+    width: 200px;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+}
+#footer p{
+    color: white;}
+h1 {
+    font-style: italic;
+}
